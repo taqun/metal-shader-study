@@ -13,7 +13,7 @@
 		31CA98FB245D82B900DDCFEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA98F8245D82B900DDCFEC /* AppDelegate.swift */; };
 		31CA98FD245D82B900DDCFEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA98FA245D82B900DDCFEC /* ViewController.swift */; };
 		31CA9902245D842300DDCFEC /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA9901245D842300DDCFEC /* Renderer.swift */; };
-		31CA9904245D847500DDCFEC /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 31CA9903245D847500DDCFEC /* Shader.metal */; };
+		31CA9906245D93DF00DDCFEC /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 31CA9905245D93DF00DDCFEC /* Shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		31CA98F8245D82B900DDCFEC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
 		31CA98FA245D82B900DDCFEC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Classes/ViewController.swift; sourceTree = "<group>"; };
 		31CA9901245D842300DDCFEC /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Renderer.swift; path = Classes/Renderer.swift; sourceTree = "<group>"; };
-		31CA9903245D847500DDCFEC /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
+		31CA9905245D93DF00DDCFEC /* Shader.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; name = Shader.metal; path = Classes/Shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +69,9 @@
 			isa = PBXGroup;
 			children = (
 				31CA98F8245D82B900DDCFEC /* AppDelegate.swift */,
-				31CA98FA245D82B900DDCFEC /* ViewController.swift */,
 				31CA9901245D842300DDCFEC /* Renderer.swift */,
-				31CA9903245D847500DDCFEC /* Shader.metal */,
+				31CA9905245D93DF00DDCFEC /* Shader.metal */,
+				31CA98FA245D82B900DDCFEC /* ViewController.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -158,7 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31CA9904245D847500DDCFEC /* Shader.metal in Sources */,
+				31CA9906245D93DF00DDCFEC /* Shader.metal in Sources */,
 				31CA98FD245D82B900DDCFEC /* ViewController.swift in Sources */,
 				31CA9902245D842300DDCFEC /* Renderer.swift in Sources */,
 				31CA98FB245D82B900DDCFEC /* AppDelegate.swift in Sources */,
